@@ -1,0 +1,70 @@
+.rightAside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2a2a3c;
+    height: 100%;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left: 5px solid rgba(200, 200, 200, 0.2);
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.5);
+    animation: slideInRight 0.8s ease-out;
+}
+
+@media (max-width: 1024px) {
+    .rightAside {
+        display: none;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px) perspective(400px) rotateY(-15deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) perspective(400px) rotateY(0deg);
+    }
+}
+
+.rightAside>button {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    padding: 5px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(14, 14, 14);
+    background: linear-gradient(to bottom, #9fff9a, #84ff88);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+    transition: background 0.2s, transform 0.1s;
+}
+
+.rightAside>button:hover {
+    background: linear-gradient(to bottom, #80e080, #66d066);
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.5);
+}
+
+.rightAside>button:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.runTrack {
+    width: 80% !important;
+    height: 45px !important;
+    background: linear-gradient(to bottom, #c94aff, #b70eff) !important;
+    color: rgb(51, 51, 51) !important;
+    margin-bottom: 30px !important;
+}
+
+.runTrack:hover {
+    background: linear-gradient(to bottom, #ac3fda, #9c0dda) !important
+}
