@@ -13,6 +13,12 @@
     animation: slideInLeft  0.8s ease-out;
 }
 
+@media (max-width: 768px) {
+    .sidebar {
+        width: 40%;
+    }
+}
+
 .noneSelected {
     display: flex;
     justify-content: center;
