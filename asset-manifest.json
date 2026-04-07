@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Sound-Landscape/static/css/main.4139e42c.css",
+    "main.js": "/Sound-Landscape/static/js/main.ffd29879.js",
+    "static/media/darkslategrey.mp3": "/Sound-Landscape/static/media/darkslategrey.3bbf73830aa07ddd2a6f.mp3",
+    "static/media/pink.mp3": "/Sound-Landscape/static/media/pink.aba3dcb3015fbcb98a0b.mp3",
+    "static/media/red.mp3": "/Sound-Landscape/static/media/red.f45534ef0795ca160a1e.mp3",
+    "static/media/lightblue.mp3": "/Sound-Landscape/static/media/lightblue.751388d1cd942d8263ef.mp3",
+    "static/media/lime.mp3": "/Sound-Landscape/static/media/lime.1776bc7017df95120cdd.mp3",
+    "static/media/green.mp3": "/Sound-Landscape/static/media/green.2d253702fcdd6180eefe.mp3",
+    "static/media/grey.mp3": "/Sound-Landscape/static/media/grey.cefd6d41e379967be394.mp3",
+    "static/media/purple.mp3": "/Sound-Landscape/static/media/purple.cd07f438e6e674e0c2f4.mp3",
+    "static/media/white.mp3": "/Sound-Landscape/static/media/white.11f33ab0300c19a12b0e.mp3",
+    "static/media/yellow.mp3": "/Sound-Landscape/static/media/yellow.d4b05fca8e5cdbb7f0c4.mp3",
+    "static/media/blue.mp3": "/Sound-Landscape/static/media/blue.60606ed4b6e2e0cf45ce.mp3",
+    "static/media/cyan.mp3": "/Sound-Landscape/static/media/cyan.52e3cf60728b920ece6e.mp3",
+    "static/media/brown.mp3": "/Sound-Landscape/static/media/brown.b7307e1a9124cb7dc123.mp3",
+    "static/media/orange.mp3": "/Sound-Landscape/static/media/orange.577cf7109204eb3c8e82.mp3",
+    "index.html": "/Sound-Landscape/index.html",
+    "main.4139e42c.css.map": "/Sound-Landscape/static/css/main.4139e42c.css.map",
+    "main.ffd29879.js.map": "/Sound-Landscape/static/js/main.ffd29879.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4139e42c.css",
+    "static/js/main.ffd29879.js"
+  ]
+}
